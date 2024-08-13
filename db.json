@@ -1,0 +1,168 @@
+{
+  "Usuarios": [
+    {
+      "id_usuario": 1,
+      "nome": "Maria da Silva",
+      "email": "maria.silva@example.com",
+      "senha": "senha123",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_usuario": 2,
+      "nome": "João Souza",
+      "email": "joao.souza@example.com",
+      "senha": "senha456",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    }
+  ],
+  "Contatos": [
+    {
+      "id_contato": 1,
+      "id_usuario": 1,
+      "nome": "Ana Oliveira",
+      "telefone": "555-1234",
+      "email": "ana.oliveira@example.com",
+      "endereco": "Rua das Flores, 123, São Paulo",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_contato": 2,
+      "id_usuario": 1,
+      "nome": "Carlos Pereira",
+      "telefone": "555-5678",
+      "email": "carlos.pereira@example.com",
+      "endereco": "Avenida Paulista, 456, São Paulo",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_contato": 3,
+      "id_usuario": 2,
+      "nome": "Beatriz Santos",
+      "telefone": "555-8765",
+      "email": "beatriz.santos@example.com",
+      "endereco": "Rua das Laranjeiras, 789, Rio de Janeiro",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_contato": 4,
+      "id_usuario": 2,
+      "nome": "Lucas Almeida",
+      "telefone": "555-4321",
+      "email": "lucas.almeida@example.com",
+      "endereco": "Rua dos Pinheiros, 321, Rio de Janeiro",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_contato": 5,
+      "id_usuario": 2,
+      "nome": "Fernanda Costa",
+      "telefone": "555-6789",
+      "email": "fernanda.costa@example.com",
+      "endereco": "Avenida Atlântica, 987, Rio de Janeiro",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    }
+  ],
+  "Compromissos": [
+    {
+      "id_compromisso": 1,
+      "id_usuario": 1,
+      "titulo": "Reunião de Trabalho",
+      "descricao": "Reunião com a equipe para discutir o projeto X",
+      "data_inicio": "2024-08-14T09:00:00Z",
+      "data_fim": "2024-08-14T10:00:00Z",
+      "local": "Escritório Central",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_compromisso": 2,
+      "id_usuario": 1,
+      "titulo": "Consulta Médica",
+      "descricao": "Consulta com o Dr. Silva",
+      "data_inicio": "2024-08-15T14:00:00Z",
+      "data_fim": "2024-08-15T15:00:00Z",
+      "local": "Clínica Médica",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_compromisso": 3,
+      "id_usuario": 1,
+      "titulo": "Almoço com Ana",
+      "descricao": "Almoço com a Ana Oliveira",
+      "data_inicio": "2024-08-16T12:30:00Z",
+      "data_fim": "2024-08-16T13:30:00Z",
+      "local": "Restaurante Vila Verde",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_compromisso": 4,
+      "id_usuario": 1,
+      "titulo": "Apresentação do Projeto",
+      "descricao": "Apresentação do projeto para a diretoria",
+      "data_inicio": "2024-08-17T11:00:00Z",
+      "data_fim": "2024-08-17T12:00:00Z",
+      "local": "Sala de Reuniões A",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_compromisso": 5,
+      "id_usuario": 1,
+      "titulo": "Encontro com Cliente",
+      "descricao": "Discussão de novos negócios com o cliente Carlos Pereira",
+      "data_inicio": "2024-08-18T16:00:00Z",
+      "data_fim": "2024-08-18T17:00:00Z",
+      "local": "Café Central",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_compromisso": 6,
+      "id_usuario": 2,
+      "titulo": "Visita ao Cliente",
+      "descricao": "Visita à empresa para negociar contrato",
+      "data_inicio": "2024-08-14T10:00:00Z",
+      "data_fim": "2024-08-14T11:30:00Z",
+      "local": "Escritório do Cliente",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_compromisso": 7,
+      "id_usuario": 2,
+      "titulo": "Reunião de Planejamento",
+      "descricao": "Planejamento do próximo trimestre",
+      "data_inicio": "2024-08-15T09:00:00Z",
+      "data_fim": "2024-08-15T11:00:00Z",
+      "local": "Sala de Conferências",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_compromisso": 8,
+      "id_usuario": 2,
+      "titulo": "Viagem a Trabalho",
+      "descricao": "Viagem para reunião em outra cidade",
+      "data_inicio": "2024-08-16T06:00:00Z",
+      "data_fim": "2024-08-16T18:00:00Z",
+      "local": "Aeroporto Internacional",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_compromisso": 9,
+      "id_usuario": 2,
+      "titulo": "Revisão de Documentos",
+      "descricao": "Revisão de documentos legais com Beatriz Santos",
+      "data_inicio": "2024-08-17T15:00:00Z",
+      "data_f
+      "data_fim": "2024-08-17T16:00:00Z",
+      "local": "Escritório de Advocacia",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    },
+    {
+      "id_compromisso": 10,
+      "id_usuario": 2,
+      "titulo": "Jantar com Lucas",
+      "descricao": "Jantar com Lucas Almeida para discutir projeto",
+      "data_inicio": "2024-08-18T20:00:00Z",
+      "data_fim": "2024-08-18T22:00:00Z",
+      "local": "Restaurante Bela Vista",
+      "data_criacao": "2024-08-13T00:00:00Z"
+    }
+  ]
+}
